@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-public-sans: "Public Sans";
+
+  /* font sizes */
+  --font-size-smi: 13px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-royalblue: #0067d5;
+  --color-cornflowerblue: #0064b9;
+}
