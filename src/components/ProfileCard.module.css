@@ -24,6 +24,7 @@
   width: 150px;
   height: 150px;
   cursor: pointer;
+  pointer-events: none;
 }
 .profiledpIcon:hover {
   animation: 1s ease 0s 1 normal none shadow-drop-bottom;
