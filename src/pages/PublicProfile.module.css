@@ -222,6 +222,7 @@
 .uppermenu {
   position: relative;
   background: linear-gradient(180deg, #08f, #006ac6);
+  box-shadow: 0-1px 10px rgba(0, 0, 0, 0.25) inset;
   width: 1536px;
   height: 75px;
 }
