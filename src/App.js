@@ -5,7 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import undefined from "./";
+import Homepage from "./pages/Homepage";
+import PublicProfile from "./pages/PublicProfile";
 
 function App() {
   const action = useNavigationType();
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/publicprofile":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +50,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<undefined />} />
+      <Route path="/" element={<Homepage />} />
+      <Route path="/publicprofile" element={<PublicProfile />} />
     </Routes>
   );
 }
