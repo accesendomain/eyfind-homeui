@@ -11,6 +11,7 @@
   position: absolute;
   overflow: hidden;
   object-fit: cover;
+  pointer-events: none;
 }
 .profilecoverIcon {
   top: 0;
@@ -25,7 +26,6 @@
   border-radius: 100px;
   width: 150px;
   height: 150px;
-  pointer-events: none;
 }
 .username {
   position: relative;
@@ -190,12 +190,19 @@
   position: absolute;
   top: calc(50% - 5.5px);
   left: calc(50% - 21.44px);
+  font-size: var(--font-size-smi);
   line-height: 10px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
 }
 .signinbtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
   position: relative;
   border-radius: var(--br-10xs);
-  background-color: var(--color-white);
   width: 78.88px;
   height: 29px;
   overflow: hidden;
@@ -215,7 +222,6 @@
 .uppermenu {
   position: relative;
   background: linear-gradient(180deg, #08f, #006ac6);
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25) inset;
   width: 1536px;
   height: 75px;
 }
@@ -275,7 +281,6 @@
 }
 .lowermenu {
   background: linear-gradient(180deg, #0061d2, #0050ad);
-  box-shadow: 0-3px 5px rgba(0, 0, 0, 0.25) inset;
   border-top: 1px solid var(--color-dodgerblue-100);
   border-bottom: 1px solid var(--color-dodgerblue-100);
   width: 1536px;
@@ -299,10 +304,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  text-align: center;
-  font-size: var(--font-size-smi);
-  color: var(--color-black);
-  font-family: var(--font-inter);
 }
 .publicprofile {
   position: relative;

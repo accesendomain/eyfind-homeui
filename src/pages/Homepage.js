@@ -1,6 +1,11 @@
+import { useCallback } from "react";
 import styles from "./Homepage.module.css";
 
 const Homepage = () => {
+  const onSigninBtnClick = useCallback(() => {
+    window.location.href = "https://account.zobuo.com";
+  }, []);
+
   return (
     <div className={styles.homepage}>
       <div className={styles.contentstand}>
@@ -40,9 +45,13 @@ const Homepage = () => {
           <a className={styles.zobuoUipng} href="https://www.zobuo.com" />
           <div className={styles.btncontainer}>
             <button className={styles.appdrawerbtn} id="AppDrawerbtn" />
-            <div className={styles.signinbtn}>
+            <button
+              className={styles.signinbtn}
+              id="signinbtn"
+              onClick={onSigninBtnClick}
+            >
               <div className={styles.signIn}>Sign In</div>
-            </div>
+            </button>
           </div>
         </div>
         <div className={styles.lowermenu}>
