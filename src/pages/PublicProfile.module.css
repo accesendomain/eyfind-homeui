@@ -94,7 +94,7 @@
   height: 27px;
   flex-shrink: 0;
   justify-content: flex-start;
-  gap: 4px;
+  gap: var(--gap-9xs);
 }
 .biodatacontainer,
 .locationcontainer {
@@ -131,7 +131,7 @@
   padding: 0 var(--padding-3xs);
   box-sizing: border-box;
   font-size: var(--font-size-3xs);
-  color: var(--color-white);
+  color: var(--white);
   font-family: var(--font-inter);
 }
 .profilecard {
@@ -200,7 +200,7 @@
   cursor: pointer;
   border: 0;
   padding: 0;
-  background-color: var(--color-white);
+  background-color: var(--white);
   position: relative;
   border-radius: var(--br-10xs);
   width: 78.88px;
@@ -233,7 +233,7 @@
   font-size: var(--font-size-smi);
   line-height: 10px;
   font-family: var(--font-public-sans);
-  color: var(--color-white);
+  color: var(--white);
   text-align: center;
 }
 .lowermenubtn {
@@ -259,7 +259,7 @@
   font-size: var(--font-size-smi);
   line-height: 10px;
   font-family: var(--font-public-sans);
-  color: var(--color-white);
+  color: var(--white);
   text-align: center;
 }
 .lowermenu {
@@ -278,7 +278,7 @@
 }
 .headerPublic,
 .publicprofile {
-  background-color: var(--color-white);
+  background-color: var(--white);
   overflow: hidden;
 }
 .headerPublic {

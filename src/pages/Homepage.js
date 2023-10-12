@@ -40,6 +40,132 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <div className={styles.sidebar}>
+        <div className={styles.brand}>
+          <div className={styles.logo}>
+            <div className={styles.logomark}>
+              <div className={styles.logomarkChild} />
+              <div className={styles.logomarkItem} />
+              <img className={styles.unionIcon} alt="" src="/union.svg" />
+            </div>
+            <img className={styles.logoChild} alt="" src="/frame-3.svg" />
+            <div className={styles.orangefarm}>OrangeFarm</div>
+          </div>
+          <div className={styles.collapse}>
+            <img
+              className={styles.collapseIcon}
+              alt=""
+              src="/collapse-icon.svg"
+            />
+          </div>
+        </div>
+        <div className={styles.items}>
+          <div className={styles.search}>
+            <div className={styles.bar}>
+              <img
+                className={styles.iconFromTablerio}
+                alt=""
+                src="/icon-from-tablerio.svg"
+              />
+              <div className={styles.search1}>Search</div>
+            </div>
+          </div>
+          <div className={styles.sidebarItem01}>
+            <img
+              className={styles.iconFromTablerio}
+              alt=""
+              src="/icon-from-tablerio1.svg"
+            />
+            <div className={styles.sidebarItem}>Dashboard</div>
+          </div>
+          <div className={styles.sidebarNest}>
+            <div className={styles.sidebarItem1}>
+              <img
+                className={styles.iconFromTablerio2}
+                alt=""
+                src="/icon-from-tablerio2.svg"
+              />
+              <div className={styles.manageUsers}>Customers</div>
+              <img className={styles.closedIcon} alt="" src="/closed.svg" />
+            </div>
+          </div>
+          <div className={styles.sidebarItem01}>
+            <img
+              className={styles.iconFromTablerio}
+              alt=""
+              src="/icon-from-tablerio3.svg"
+            />
+            <div className={styles.sidebarItem}>All reports</div>
+          </div>
+          <div className={styles.sidebarItem01}>
+            <img
+              className={styles.iconFromTablerio}
+              alt=""
+              src="/icon-from-tablerio4.svg"
+            />
+            <div className={styles.sidebarItem}>Geography</div>
+          </div>
+          <div className={styles.sidebarItem01}>
+            <img
+              className={styles.iconFromTablerio}
+              alt=""
+              src="/icon-from-tablerio5.svg"
+            />
+            <div className={styles.sidebarItem}>Conversations</div>
+          </div>
+          <div className={styles.sidebarItem01}>
+            <img
+              className={styles.iconFromTablerio}
+              alt=""
+              src="/icon-from-tablerio6.svg"
+            />
+            <div className={styles.sidebarItem}>Deals</div>
+          </div>
+          <div className={styles.sidebarItem01}>
+            <img
+              className={styles.iconFromTablerio}
+              alt=""
+              src="/icon-from-tablerio7.svg"
+            />
+            <div className={styles.sidebarItem}>Export</div>
+          </div>
+        </div>
+        <div className={styles.user}>
+          <div className={styles.info}>
+            <div className={styles.avatar}>
+              <img
+                className={styles.avatarChild}
+                alt=""
+                src="/rectangle-1@2x.png"
+              />
+            </div>
+            <div className={styles.gustavoXavierParent}>
+              <div className={styles.gustavoXavier}>Gustavo Xavier</div>
+              <div className={styles.tag}>
+                <div className={styles.admin}>Admin</div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.sidebarItemParent}>
+            <div className={styles.sidebarItem01}>
+              <img
+                className={styles.iconFromTablerio}
+                alt=""
+                src="/icon-from-tablerio8.svg"
+              />
+              <div className={styles.sidebarItem}>Settings</div>
+            </div>
+            <div className={styles.sidebarItem9}>
+              <img
+                className={styles.iconFromTablerio}
+                alt=""
+                src="/icon-from-tablerio9.svg"
+              />
+              <div className={styles.sidebarItem}>Log out</div>
+            </div>
+          </div>
+        </div>
+      </div>
       <header className={styles.headerPublic} id="header-public">
         <div className={styles.uppermenu}>
           <a className={styles.zobuoUipng} href="https://www.zobuo.com" />
