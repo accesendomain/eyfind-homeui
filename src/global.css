@@ -45,4 +45,5 @@ body {
   /* Border radiuses */
   --br-10xs: 3px;
   --br-3xs: 10px;
+  --br-81xl: 100px;
 }
