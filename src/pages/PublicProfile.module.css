@@ -18,11 +18,11 @@
   left: 0;
   border-radius: 0 0 var(--br-3xs) var(--br-3xs);
   width: 933px;
-  height: 395px;
+  height: 299px;
 }
 .profiledpIcon {
-  top: 312px;
-  left: 58px;
+  top: 224px;
+  left: 59px;
   border-radius: 100px;
   width: 150px;
   height: 150px;
@@ -58,8 +58,8 @@
 }
 .profileinfocont {
   position: absolute;
-  top: 312px;
-  left: 220px;
+  top: 224px;
+  left: 221px;
   border-radius: var(--br-3xs);
   background-color: var(--color-lightgray);
   backdrop-filter: blur(5px);
@@ -118,8 +118,8 @@
 }
 .profileminicard {
   position: absolute;
-  top: 426px;
-  left: 220px;
+  top: 338px;
+  left: 221px;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
   width: 296px;
@@ -262,11 +262,11 @@
   text-align: center;
 }
 .lowermenu {
+  align-self: stretch;
   background: linear-gradient(180deg, #0061d2, #0050ad);
   border-top: 1px solid var(--color-dodgerblue-100);
   border-bottom: 1px solid var(--color-dodgerblue-100);
   box-sizing: border-box;
-  width: 1536px;
   height: 40px;
   overflow: hidden;
   flex-shrink: 0;
