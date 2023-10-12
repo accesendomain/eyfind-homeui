@@ -166,9 +166,8 @@
   align-self: stretch;
   position: relative;
   border-right: 1px solid var(--color-royalblue-200);
-  border-left: 1px solid var(--color-royalblue-200);
   box-sizing: border-box;
-  width: 96px;
+  width: 95px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -198,7 +197,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-12xs);
 }
 .headerPublic,
 .homepage {
