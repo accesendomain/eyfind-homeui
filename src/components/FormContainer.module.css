@@ -1,0 +1,63 @@
+.avatarChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.avatar {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.gustavoXavier {
+  position: relative;
+  letter-spacing: -0.25px;
+  font-weight: 500;
+}
+.gustavoXavierParent,
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.info {
+  align-self: stretch;
+  height: 40px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.sidebarItemParent,
+.user {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.user {
+  height: 180px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-base) var(--padding-5xs) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--black);
+  font-family: var(--font-inter);
+}

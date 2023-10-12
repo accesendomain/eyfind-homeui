@@ -1,0 +1,18 @@
+.admin {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 16px;
+}
+.tag {
+  border-radius: var(--br-5xl);
+  background-color: var(--mid-orange);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-7xs);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--black);
+  font-family: var(--font-inter);
+}

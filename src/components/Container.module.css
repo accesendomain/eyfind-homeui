@@ -1,0 +1,36 @@
+.collapseIcon {
+  position: relative;
+  border-radius: var(--br-9xs);
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brand,
+.collapse {
+  display: flex;
+  justify-content: center;
+}
+.collapse {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% + 649px);
+  right: -12px;
+  border-radius: var(--br-5xs);
+  background-color: var(--off-white);
+  width: 24px;
+  height: 24px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.brand {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-xs);
+  position: relative;
+  gap: var(--gap-5xs);
+}

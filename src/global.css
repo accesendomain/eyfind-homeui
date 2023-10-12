@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap");
 body {
   margin: 0;
@@ -15,7 +15,11 @@ body {
 
   /* font sizes */
   --font-size-smi: 13px;
+  --font-size-6xl: 25px;
+  --font-size-mid: 17px;
   --font-size-3xs: 10px;
+  --font-size-mini: 15px;
+  --font-size-11xl: 30px;
   --font-size-sm: 14px;
   --font-size-2xl-9: 21.9px;
 
@@ -25,38 +29,44 @@ body {
   --color-dodgerblue: rgba(0, 132, 255, 0.32);
   --color-royalblue-200: #015ecc;
   --color-black: #000;
+  --color-lightgray: rgba(208, 208, 208, 0.88);
+  --color-darkslategray: #404040;
   --off-white: #f6f6f3;
   --light-gray: #f1f1f1;
+  --color-whitesmoke-100: #eee;
   --mid-gray: #7d7d7d;
+  --color-gray-100: #292929;
   --black: #131313;
-  --color-lightgray: rgba(208, 208, 208, 0.88);
-  --dark-red: #b01212;
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --color-dimgray: #4d4d4d;
   --mid-orange: #ffcd71;
   --orange: #ffa500;
+  --dark-red: #b01212;
 
   /* Gaps */
   --gap-6xs: 7px;
   --gap-8xs: 5px;
   --gap-9xs: 4px;
   --gap-xs: 12px;
+  --gap-6xs-4: 6.4px;
   --gap-11xs: 2px;
   --gap-5xs: 8px;
-  --gap-6xs-4: 6.4px;
 
   /* Paddings */
+  --padding-6xl: 25px;
   --padding-3xs: 10px;
+  --padding-7xs: 6px;
+  --padding-xs: 12px;
+  --padding-xl: 20px;
   --padding-base: 16px;
   --padding-5xs: 8px;
   --padding-5xl: 24px;
-  --padding-xs: 12px;
-  --padding-xl: 20px;
-  --padding-7xs: 6px;
   --padding-9xs: 4px;
 
   /* Border radiuses */
   --br-10xs: 3px;
   --br-3xs: 10px;
-  --br-base: 16px;
+  --br-81xl: 100px;
   --br-5xl: 24px;
   --br-xl: 20px;
   --br-5xs: 8px;

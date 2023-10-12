@@ -1,0 +1,8 @@
+.openoff {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 264px;
+  align-self: stretch;
+}

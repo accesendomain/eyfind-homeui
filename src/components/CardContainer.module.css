@@ -1,0 +1,75 @@
+.smashedEntireCity {
+  text-decoration: underline;
+}
+.smashedEntireCityBlocks {
+  color: inherit;
+}
+.storydescriptionTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.storydescription {
+  position: absolute;
+  top: 151px;
+  left: 26px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  width: 357px;
+  height: 91px;
+}
+.trumpDipsInto {
+  margin: 0;
+}
+.headlinetitle {
+  position: absolute;
+  top: 41px;
+  left: 26px;
+  font-size: var(--font-size-6xl);
+  line-height: 27px;
+  display: flex;
+  color: var(--color-darkslategray);
+  align-items: center;
+  width: 346px;
+}
+.headlinecontainer,
+.topstorie {
+  position: absolute;
+  height: 279px;
+  overflow: hidden;
+}
+.headlinecontainer {
+  top: 0;
+  left: 521px;
+  background-color: var(--color-lightgray);
+  backdrop-filter: blur(10px);
+  width: 402px;
+}
+.topstorie {
+  top: 24px;
+  left: 296px;
+  width: 923px;
+  background-image: url(/public/topstorie@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.container,
+.contentstand {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  background-color: var(--white);
+  width: 1536px;
+  height: 500px;
+  overflow: hidden;
+}
+.contentstand {
+  top: 115px;
+  left: 0;
+  height: 502px;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: inherit;
+  font-family: var(--font-inter);
+}

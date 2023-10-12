@@ -1,0 +1,44 @@
+.iconFromTablerio {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.sidebarItem {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+  z-index: 1;
+}
+.closedIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 12.5px;
+  left: 228px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.activeonStatenestClosed {
+  border-radius: var(--br-5xl);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xs);
+  min-width: 264px;
+  max-width: 320px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--black);
+  font-family: var(--font-inter);
+}

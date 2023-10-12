@@ -1,0 +1,44 @@
+.iconFromTablerio {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.search1 {
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+}
+.bar,
+.items,
+.search {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.bar {
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--light-gray);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.items,
+.search {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs) var(--padding-xs);
+}
+.items {
+  flex: 1;
+  overflow: hidden;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--mid-gray);
+  font-family: var(--font-inter);
+}
