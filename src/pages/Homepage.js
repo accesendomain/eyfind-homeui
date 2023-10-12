@@ -55,11 +55,14 @@ const Homepage = () => {
           </div>
         </div>
         <div className={styles.lowermenu}>
-          <button className={styles.homepagebtn} id="homepagebtn">
-            <div className={styles.homepage1}>Homepage</div>
+          <button className={styles.lowermenubtn} id="homepagebtn">
+            <div className={styles.lowermenubtntext}>Homepage</div>
           </button>
-          <button className={styles.everythingbtn} id="homepagebtn">
-            <div className={styles.everything}>Everything</div>
+          <button className={styles.lowermenubtn} id="homepagebtn">
+            <div className={styles.lowermenubtntext}>News Feed</div>
+          </button>
+          <button className={styles.lowermenubtn} id="homepagebtn">
+            <div className={styles.lowermenubtntext2}>Weather</div>
           </button>
         </div>
       </header>

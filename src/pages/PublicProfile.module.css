@@ -145,7 +145,7 @@
   top: 114px;
   left: 276px;
   width: 983px;
-  height: 660px;
+  height: 700px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -225,7 +225,7 @@
   width: 1536px;
   height: 75px;
 }
-.homepage {
+.lowermenubtntext {
   position: absolute;
   top: 15px;
   left: 14px;
@@ -235,7 +235,7 @@
   color: var(--color-white);
   text-align: center;
 }
-.homepagebtn {
+.lowermenubtn {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -249,42 +249,28 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.everythingbtn:hover,
-.homepagebtn:hover {
+.lowermenubtn:hover {
   background-color: var(--color-dodgerblue);
 }
-.everything {
+.lowermenubtntext2 {
   position: absolute;
   top: 15px;
-  left: 11px;
+  left: 21px;
   font-size: var(--font-size-smi);
   line-height: 10px;
   font-family: var(--font-public-sans);
   color: var(--color-white);
   text-align: center;
 }
-.everythingbtn,
-.lowermenu {
-  box-sizing: border-box;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.everythingbtn {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  align-self: stretch;
-  position: relative;
-  border-right: 1px solid var(--color-royalblue-200);
-  width: 89px;
-}
 .lowermenu {
   background: linear-gradient(180deg, #0061d2, #0050ad);
   border-top: 1px solid var(--color-dodgerblue-100);
   border-bottom: 1px solid var(--color-dodgerblue-100);
+  box-sizing: border-box;
   width: 1536px;
   height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
